@@ -1,0 +1,14 @@
+:root {
+    --header-bgc: #fafafa;
+    --header-loader: #007dff;
+    --menu-active: rgba(0, 125, 255, 0.08);
+    --menu-notActive: rgba(0, 0, 0, 0.87);
+    --reports-menu: rgba(0, 0, 0, 0.54);
+    --cards-start: #0b79d0;
+    --cards-percent: rgba(154, 255, 158, 0.5);
+    --cards-end: rgba(0, 125, 255, 0.5);
+    --cards-text: #757575;
+    --cards-point: rgba(33, 150, 243, 0.5);
+    --rating-color: rgba(0, 0, 0, 0.54);
+    --border-grafic-card: #e0e0e0;
+}

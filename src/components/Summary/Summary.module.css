@@ -1,0 +1,50 @@
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-right: 32px;
+}
+
+.btn {
+    border: none;
+
+    padding: 0;
+
+    background-color: var(--header-bgc);
+}
+
+.dataText {
+    margin-left: 10px;
+}
+
+.vs {
+    margin: 0 16px;
+}
+
+.graficsBox {
+    margin: 20px 32px 0 32px;
+}
+
+.graficsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.graficItem {
+    width: 476px;
+    height: 247px;
+
+    border: 1px solid var(--border-grafic-card);
+    border-radius: 8px;
+
+    padding: 16px;
+}
+
+.graficItem:nth-child(2n) {
+    margin-left: 30px;
+}
+
+.graficItem:nth-last-child(-n + 2) {
+    margin-top: 30px;
+}

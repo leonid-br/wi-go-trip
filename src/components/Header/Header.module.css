@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+
+    height: 74px;
+
+    background-color: var(--header-bgc);
+}
+
+.logo {
+    margin: 16px 0 16px 32px;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+
+    margin: 25px 42px 25px 0;
+    margin-left: auto;
+}
+
+.loader p {
+    margin-left: 8.4px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--header-loader);
+}
